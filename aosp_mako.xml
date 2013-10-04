@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="github"
+           fetch="https://github.com"
+           review="review.cyanogenmod.org" />
+
+  <remove-project name="device/lge/mako" />
+  <project name="tvall43/android_device_lge_mako" path="device/lge/mako" remote="github" revision="jb-mr2-dev"/>
+
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.2" />
+  <!--<project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-10.2" />
+  <project path="packages/apps/DSPManager" name="Cyanogenmod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />-->
+</manifest>
