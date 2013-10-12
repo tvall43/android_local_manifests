@@ -1,0 +1,28 @@
+<manifest>
+  <remote  name="github"
+           fetch="http://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <default revision="gingerbread"
+           remote="github" />
+
+  <project path="dalvik" name="tvall43/android_dalvik" />
+
+  <project path="frameworks/base" name="tvall43/android_frameworks_base" />
+
+  <project path="packages/apps/Camera" name="BobZhome/android_packages_apps_Camera" />
+
+  <project path="packages/apps/CMParts" name="tvall43/android_packages_apps_CMParts" />
+
+  <project path="packages/apps/Settings" name="tvall43/android_packages_apps_Settings" />
+
+  <project path="system/bluetooth" name="inferiorhumanorgans/android_system_bluetooth" />
+  <project path="system/core" name="inferiorhumanorgans/android_system_core" />
+
+  <project path="device/lge/thunderc_common" name="inferiorhumanorgans/android_device_lge_thunderc_common" />
+  <project path="device/lge/thunderc_VS660" name="inferiorhumanorgans/android_device_lge_thunderc_VS660" />
+  <project path="device/lge/thunderc_LS670" name="inferiorhumanorgans/android_device_lge_thunderc_LS670" />
+  <project path="device/lge/thunderc_VM670" name="tvall43/android_device_lge_thunderc_VM670" />
+  <project path="device/lge/thunderc_MS690" name="inferiorhumanorgans/android_device_lge_thunderc_MS690" />
+  <project path="vendor/lge" name="inferiorhumanorgans/vendor_lge_thunderc" />
+</manifest>
